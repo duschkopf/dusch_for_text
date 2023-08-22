@@ -1,4 +1,4 @@
-    {logger} [boolean] --> shows logging while exploiting the code (if True)
+    {logger} [boolean] --> shows logs while working (if True)
 
 >> translit
 
