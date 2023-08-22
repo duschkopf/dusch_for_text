@@ -1,7 +1,8 @@
     {logger} [boolean] --> shows logging while exploiting the code (if True)
 
 >> translit
-    This function transliterates {text} in chosen {mode}
+
+This function transliterates {text} in chosen {mode}
     
     {text} [str] --> text to transliterate
     {mode} [str] --> different ways of transliteration
@@ -13,14 +14,16 @@
             (default) "" == 'GOST'
 
 >> fragment_search
-    This function finds {position} of {fragment} in {text}, could be {case_sensitive} or not
+
+This function finds {position} of {fragment} in {text}, could be {case_sensitive} or not
     
     {text} [str] --> {text} to search {fragment} in [str]
     {fragment} [str] or [list] of [str] --> {fragment} to search in text
     {case_sensitive} [bool] --> taking case of symbols into consideration (if True)
 
 >> case_change
-    This function changes case of symbols in {text} via chosen {mode}
+
+This function changes case of symbols in {text} via chosen {mode}
     
     {text} [str] --> text to change case in
     {mode} [str] --> mode for case changing
