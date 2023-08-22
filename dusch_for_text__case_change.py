@@ -8,7 +8,7 @@ def case_change(settings,     text): # last modified 23.07.2022
     my_name = 'case_change' # name of this function [str]
     '''
 
-    This function changes case of symbols in {text}
+    This function changes case of symbols in {text} via chosen {mode}
 
     '''
     # results
@@ -18,7 +18,7 @@ def case_change(settings,     text): # last modified 23.07.2022
     # variables
     callname = settings[0] # name of a program from where this function is called [str]
     logger   = settings[1] # logging switcher [bool]
-    mode = settings[2] # mode [str]
+    mode = settings[2] # mode [str] for case changing
     """
     mode = 'lower'
     mode = 'upper'

@@ -8,8 +8,7 @@ def fragment_search(settings,     text,fragment): # last modified 21.07.2022
     my_name = 'fragment_search' # name of this function [str]
     '''
 
-    This function finds {position} of {fragment} in {text},
-    {case_sensitive} switch to take case of symbols into consideration
+    This function finds {position} of {fragment} in {text}, could be {case_sensitive} or not
 
     '''
     # results
@@ -19,7 +18,7 @@ def fragment_search(settings,     text,fragment): # last modified 21.07.2022
     callname = settings[0] # name of a program from where this function is called [str]
     logger   = settings[1] # logging switcher [bool]
     case_sensitive = settings[2] # case sensitive switcher [bool]
-    # {text} to search fragment in [str]
+    # {text} to search {fragment} in [str]
     # {fragment} to search in text [str] or [list] of [str]
     """
     text = 'Hello, my little pony world! OH MY LITTLE WORLD'
