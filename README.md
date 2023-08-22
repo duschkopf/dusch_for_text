@@ -4,8 +4,8 @@
 
 This function transliterates {text} in chosen {mode}
     
-    {text} [str] --> text to transliterate
-    {mode} [str] --> different ways of transliteration
+    {text} [str] --> {text} to transliterate
+    {mode} [str] --> {mode} for different ways of transliteration
             "GOST" or "ISO" to use the international standard (GOST 7.79-2000 or ISO 9:1995) (for reversible transliteration)
             "telegram" to use the instruction of the Ministry of Communications (for the procedure for processing international telegrams)
             "ICAO" to use the standard of the International Civil Aviation Organization (for documents usage)
@@ -25,8 +25,8 @@ This function finds {position} of {fragment} in {text}, could be {case_sensitive
 
 This function changes case of symbols in {text} via chosen {mode}
     
-    {text} [str] --> text to change case in
-    {mode} [str] --> mode for case changing
+    {text} [str] --> {text} to change case in
+    {mode} [str] --> {mode} for case changing
             "lower" to make all symbols minuscule (into lower case)
             "upper" to make all symbols majuscule (into upper case)
             "one title" to make first letter CAPITAL
