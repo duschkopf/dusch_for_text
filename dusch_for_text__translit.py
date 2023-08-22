@@ -73,29 +73,6 @@ def translit(settings,     text): # last modified 23.07.2022
                 print(call_me_by_my_name + ' >> "mode" is set by default as "' + mode + '"')
             else:
                 # 'GOST' 'ISO' 'telegram' 'ICAO' 'wiki' 'mosmetro'
-# =============================================================================
-#                 if True:
-#                     automated_change = False # automated change switcher
-#                     mode_new = '' # automatically changed missprints in {mode}
-#                     if mode=='gost':
-#                         mode_new = 'GOST'
-#                         automated_change = True
-#                     if mode=='iso':
-#                         mode_new = 'ISO'
-#                         automated_change = True
-#                     if mode=='icao':
-#                         mode_new = 'ICAO'
-#                         automated_change = True
-#                     if mode=='WIKI' or mode=='Wiki' or mode=='WIKIPEDIA' or mode=='Wikipedia' or mode=='wikipedia':
-#                         mode_new = 'wiki'
-#                         automated_change = True
-#                     if mode=='MOSMETRO' or mode=='MosMetro' or mode=='Mosmetro' or mode=='Metro' or mode=='metro' or mode=='LEBEDEV' or mode=='Lebedev' or mode=='lebedev':
-#                         mode_new = 'mosmetro'
-#                         automated_change = True
-#                     if automated_change:
-#                         print(call_me_by_my_name + ' >> "' + mode + '" "mode" changed automatically into "' + mode_new + '"')
-#                         mode = mode_new
-# =============================================================================
                 if not (  mode=='GOST' or mode=='ISO' or mode=='telegram' or mode=='ICAO' or mode=='wiki' or mode=='mosmetro'  ):
                     print(call_me_by_my_name + ' >> choose "mode" wisely, ERROR')
                     print(call_me_by_my_name + ' >> mode = "GOST" or "ISO" to use the international standard (GOST 7.79-2000 or ISO 9:1995) (for reversible  transliteration)')
