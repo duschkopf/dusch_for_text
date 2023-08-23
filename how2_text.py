@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-callname = 'HOW2DO_text' # name of a program from where this function is called [str]
+callname = 'how2_text' # name of a program from where this function is called [str]
 logger   = True # logging switcher [bool]
 import dusch_for_text
 
