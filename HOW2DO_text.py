@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 callname = 'HOW2DO_text' # name of a program from where this function is called [str]
 logger   = True # logging switcher [bool]
-
-
-
 import dusch_for_text
+
+
 
 text = 'Юзер, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю с Ципочкой из Обшаровки P.S. sticks and stones, love'
 
