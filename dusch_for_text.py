@@ -3,9 +3,9 @@
 @author: roman.dushkov@gmail.com
 """
 
-def translit(settings,     text):
+def translit_ru(settings,     text):
     # !!!
-    my_name = 'translit' # name of this function [str]
+    my_name = 'translit_ru' # name of this function [str]
     '''
 
     This function transliterates {text} in chosen {mode}
@@ -130,7 +130,6 @@ def translit(settings,     text):
     text_mosmetro  = '' # {text} tralsliterated by Moscow Metro's scheme made on the basis of Wikipedia/Yandex.Maps by Lebedev's Studio (for accurate visual transliteration)
 
     if not fool_check:
-        # transliteration
         for i in range(len(text)):
             ch_to_transliterate = text[i] # symbol to transliterate
             ch_to_transliterate_low = ch_to_transliterate.lower() # symbol to transliterate in lower case
